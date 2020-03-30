@@ -16,7 +16,7 @@ function Home() {
     	axios.get(`http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=3123ae9487ce4711a1ca4f2275a963f1`)
    .then(function (response) {
     // handle success
-    setWeatherData(response.data);
+    setNewsData(response.data);
   })
     .catch(function (error) {
     // handle error
