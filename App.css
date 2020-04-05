@@ -1,89 +1,9 @@
-.SiteWrapper {
-  max-width: 1080px;
-  margin: 0 auto;
-  width: 100%;
-  padding: 0 25px;
-  text-align: center;
-  z-index: 1;
+h1 {
+	color: white;
+	font-size: 80px;
 }
 
-.Home {
-  max-width: 0 auto;
-  max-width: 640px;
+div {
+	top: 40px;
+	left: 13%;
 }
-
-.Home h1 {
-  text-align: center;
-}
-
-.WeatherInfo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-.WeatherInfo_Image {
-  flex-basis: 50%;
-  font-size: 100px;
-}
-
-.CurrentTemperatureTemp {
-  font-size: 44px;
-}
-
-.WeatherInfo_Data {
-  flex-basis: 50%;
-}
-
-.WeatherInfo_Data .CurrentTemperature .CurrentTemperatureTemp{
-  font-size: 140px;
-  font-weight: bold;
-  line-height: 140px;
-  margin: 0;
-}
-
-.WeatherInfo_Data .CurrentTemperature .CurrentTemperatureLabel{
-  font-weight: bold;
-  margin: 0;
-  text-transform: uppercase;
-}
-
-.OtherTemperatures {
-  /*font-size: 24px;*/
-  line-height: 24px;
-}
-
-.Header {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.CitiesNav {
-  display: flex;
-}
-
-.CitiesNav a {
-  color: black;
-  display: block;
-  padding: 5px 10px; 
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  transition: border-bottom 200ms ease;
-}
-
-.CitiesNav a:hover{
-  border-bottom: 1px solid black;
-}
-.CitiesNav .active{
-  color: green;
-}
-
-@media (max-width: 615px){
-  .CitiesNave {
-    font-size: 10px;
-  }
-}
-
-
